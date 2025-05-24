@@ -1,0 +1,26 @@
+h1{
+  background-color: rgb(116, 168, 116);
+  padding: 10px;
+  font-family: roboto;
+  color:  white;
+}
+img{
+  border-radius: 5px;
+}
+.imageDiv{
+  padding: 10px;
+}
+.newImg{
+  color: red;
+  padding: 10px;
+}
+.border{
+  border: black solid ;
+  width: 500px;
+}
+.explanation{
+  background-color: black;
+  color:  white;
+  font-size: 20px;
+  padding: 10px;
+}
