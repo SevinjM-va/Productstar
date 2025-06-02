@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+</head>
+<body>
+  <!-- <a href="/">Reload</a> -->
+  <script>
+
+    // let name = prompt("Enter your name please!")
+    // console.log("Hello", name);
+    // let targetUnit = prompt("Enter the target please!(mile,inch)");
+    // let value = prompt("Enter" + targetUnit + ' value');
+    // if (targetUnit == 'mile'){
+    //   let km = value * 1.61
+    //   console.log('Miles => ' + km + 'kilometres');
+    // } else if (targetUnit == 'inch') {
+    //   let sm = value * 2.54;
+    //   console.log('Inch => ' + sm + 'centimeters')
+    // } else {
+    //   console.log('Sorry we do not support ' + targetUnit)
+    // }
+    
+    let dimension = prompt('Enter Temperature dimension (c or f)');
+    let temperature = prompt("Enter the temperature ");
+    let celsius = dimension ==="f"? (temperature -32)*5/9 : temperature;
+
+    console.log(
+      celsius >= 30 ? "It's hot outside" :
+      celsius > 20 ? "It's warm outside" :
+      celsius <= 20 ? "It's cold outside" :
+      "Sorry. Something went wrong("
+);
+
+
+    
+    
+
+  </script>
+</body>
+</html> 
