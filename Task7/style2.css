@@ -1,0 +1,37 @@
+.container{
+  border: 2px solid black;
+  width: 100%;
+  display: flexs;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.imgContainer,.rowbtn{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+img{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  transition: box-shadow 0.2s;
+  margin: 0 8px 8px 0;
+  width: 250px;
+  height: 150px;
+  margin: 50px;
+}
+.rowbtn{
+  display: flex;
+  justify-content: space-around;
+}
+
+button{
+  background-color: green;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
