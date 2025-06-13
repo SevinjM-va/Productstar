@@ -9,13 +9,19 @@ function newImage() {
   });
 };
 
-
 function remove(){
-  alert('hello')
+  const images = document.querySelectorAll('img')
+  const lastImg = images[images.length - 1]
+  lastImg.remove()
 }
 
+
 function add(){
-  alert('hello')
+  const img = document.createElement('img')
+  img.src = "https://picsum.photos/300/200?random=" + Math.random()
+  const imgCont = document.querySelector('.imgContainer').appendChild(img)
+  console.log(imgCont)
+  
 }
 rmv.addEventListener('click',remove);
 newB.addEventListener('click',newImage);
